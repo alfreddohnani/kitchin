@@ -128,12 +128,7 @@ class _OnboardPageState extends State<OnboardPage>
           alignment: Alignment.centerRight,
           child: AnimatedBuilder(
             animation: borderAnimation,
-            builder: (BuildContext context, child){
-              return new CustomPaint(
-                painter: new DrawerPaint(
-                  curveColor: widget.pageModel.accentColor,
-                ),
-                child: new Align(
+            child: new Align(
                   alignment: Alignment.bottomCenter,
                   child: new Padding(
                     padding: const EdgeInsets.only(bottom: 24.0),
@@ -147,6 +142,12 @@ class _OnboardPageState extends State<OnboardPage>
                     ),
                     ),
                 ),
+            builder: (BuildContext context, child){
+              return new CustomPaint(
+                painter: new DrawerPaint(
+                  curveColor: widget.pageModel.accentColor,
+                ),
+                child: child,
               );
             },
           ),

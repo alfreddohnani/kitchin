@@ -9,6 +9,6 @@ class ColorProvider with ChangeNotifier{
 
    set color(Color color){
     _color = color;
-    notifyListeners();
+    // notifyListeners();
   }
 }
