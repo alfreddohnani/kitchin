@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:kitchin/themes/styles.dart';
-import 'package:kitchin/screens/Home.dart';
+import 'package:kitchin/src/themes/styles.dart';
+import 'package:kitchin/src/screens/Home.dart';
 
 
 class App extends StatelessWidget{

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:kitchin/providers/ColorProvider.dart';
-import 'package:kitchin/screens/onboarding/Onboarding.dart';
+import 'package:kitchin/src/providers/ColorProvider.dart';
+import 'package:kitchin/src/screens/onboarding/Onboarding.dart';
 import 'package:provider/provider.dart';
 
 class Home extends StatelessWidget{

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:kitchin/providers/ColorProvider.dart';
-import 'package:kitchin/screens/onboarding/components/DrawerPaint.dart';
-import 'package:kitchin/screens/onboarding/models/OnboardPageModel.dart';
+import 'package:kitchin/src/providers/ColorProvider.dart';
+import 'package:kitchin/src/screens/onboarding/components/DrawerPaint.dart';
+import 'package:kitchin/src/screens/onboarding/models/OnboardPageModel.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
@@ -87,11 +87,12 @@ class _OnboardPageState extends State<OnboardPage>
                         child: Text(
                           widget.pageModel.caption,
                           style: TextStyle(
-                              fontSize: 24,
-                              color:
-                                  widget.pageModel.accentColor.withOpacity(0.8),
-                              letterSpacing: 1,
-                              fontStyle: FontStyle.normal),
+                            fontFamily: 'Circular Std Black Regular',
+                            fontSize: 24,
+                            color:
+                                widget.pageModel.accentColor.withOpacity(0.8),
+                            letterSpacing: 1,
+                            fontStyle: FontStyle.normal),
                         ),
                       ),
                     ],

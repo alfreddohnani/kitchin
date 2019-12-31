@@ -1,5 +1,5 @@
 import 'dart:ui';
-import 'package:kitchin/screens/onboarding/models/OnboardPageModel.dart';
+import 'package:kitchin/src/screens/onboarding/models/OnboardPageModel.dart';
 
 List<OnboardPageModel> onboardData  = [
     OnboardPageModel(

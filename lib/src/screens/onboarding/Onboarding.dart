@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:kitchin/providers/ColorProvider.dart';
-import 'package:kitchin/screens/onboarding/data/onboard_page_data.dart';
-import 'package:kitchin/screens/onboarding/components/OnboardPage.dart';
+import 'package:kitchin/src/providers/ColorProvider.dart';
+import 'package:kitchin/src/screens/onboarding/data/onboard_page_data.dart';
+import 'package:kitchin/src/screens/onboarding/components/OnboardPage.dart';
 import 'package:provider/provider.dart';
 
 import 'components/PageViewIndicator.dart';

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:kitchin/screens/onboarding/data/onboard_page_data.dart';
+import 'package:kitchin/src/screens/onboarding/data/onboard_page_data.dart';
 import 'package:flutter/foundation.dart';
 
 class ColorProvider with ChangeNotifier{
