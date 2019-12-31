@@ -69,7 +69,7 @@ class _OnboardPageState extends State<OnboardPage>
                     offset: Offset(heroAnimation.value, 0),
                     child: Padding(
                       padding: const EdgeInsets.only(top: 32.0),
-                      child: SvgPicture.asset(widget.pageModel.imagePath),
+                      child: Image.asset(widget.pageModel.imagePath),
                     ),
                   );
                 },
@@ -92,29 +92,6 @@ class _OnboardPageState extends State<OnboardPage>
                                   widget.pageModel.accentColor.withOpacity(0.8),
                               letterSpacing: 1,
                               fontStyle: FontStyle.normal),
-                        ),
-                      ),
-                      Padding(
-                        padding: const EdgeInsets.only(bottom: 8.0),
-                        child: Text(
-                          widget.pageModel.subhead,
-                          style: TextStyle(
-                              fontSize: 40,
-                              fontWeight: FontWeight.bold,
-                              color: widget.pageModel.accentColor,
-                              letterSpacing: 1,
-                              fontStyle: FontStyle.normal),
-                        ),
-                      ),
-                      Padding(
-                        padding: const EdgeInsets.symmetric(vertical: 8.0),
-                        child: Text(
-                          widget.pageModel.description,
-                          style: TextStyle(
-                            fontSize: 18,
-                            color:
-                                widget.pageModel.accentColor.withOpacity(0.9),
-                          ),
                         ),
                       ),
                     ],

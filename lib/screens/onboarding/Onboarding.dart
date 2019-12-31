@@ -38,7 +38,7 @@ class Onboarding extends StatelessWidget{
                 Padding(
                   padding: const EdgeInsets.only(left: 32.0),
                   child: Text(
-                    'fun with',
+                    'Kitchin',
                     style: Theme.of(context).textTheme.title.copyWith(
                           color: colorProvider.color,
                         ),
