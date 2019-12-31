@@ -16,7 +16,7 @@ class Onboarding extends StatelessWidget{
       children: <Widget>[
         PageView.builder(
           controller: pageController,
-          physics: NeverScrollableScrollPhysics(),
+          physics: ScrollPhysics(),
           itemCount: onboardData.length,
           itemBuilder: (context, index) {
             return OnboardPage(
