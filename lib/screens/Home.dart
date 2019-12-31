@@ -7,11 +7,11 @@ class Home extends StatelessWidget{
 
   Widget build(BuildContext context){
 
-    return new Scaffold(
-      body: new ChangeNotifierProvider(
-        create: (context) => ColorProvider(),
-        child: new Onboarding(), 
+    return ChangeNotifierProvider(
+      create: (BuildContext context) => ColorProvider(),
+      child: Scaffold(
+        body: Onboarding(),
       ),
-    );
+      );
   }
 }

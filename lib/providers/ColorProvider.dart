@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:kitchin/screens/onboarding/data/onboard_page_data.dart';
+import 'package:flutter/foundation.dart';
 
 class ColorProvider with ChangeNotifier{
 
@@ -9,6 +10,6 @@ class ColorProvider with ChangeNotifier{
 
    set color(Color color){
     _color = color;
-    // notifyListeners();
+    notifyListeners();
   }
 }
