@@ -4,13 +4,13 @@ import 'package:flutter/material.dart';
 
 class PageViewIndicator extends StatefulWidget {
   final PageController controller;
-  final int itemCount;
+  final int numPages;
   final Color color;
 
   const PageViewIndicator({
     Key key,
     @required this.controller,
-    @required this.itemCount,
+    @required this.numPages,
     this.color,
   }) : super(key: key);
 
@@ -23,7 +23,7 @@ class _PageViewIndicatorState extends State<PageViewIndicator> {
   Widget build(BuildContext context) {
     return CustomPaint(
       painter: IndicatorPainter(
-        3,
+        3,-
         widget.controller.page?.round() ?? -1,
         color: widget.color,
       ),

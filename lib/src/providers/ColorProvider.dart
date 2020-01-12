@@ -4,7 +4,7 @@ import 'package:flutter/foundation.dart';
 
 class ColorProvider with ChangeNotifier{
 
-  Color _color = onboardData[0].accentColor;
+  Color _color = onboardData[0].textColor;
 
   Color get color => _color;
 

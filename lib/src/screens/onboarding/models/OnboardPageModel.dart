@@ -1,13 +1,13 @@
 import 'dart:ui';
 
 class OnboardPageModel {
-  final Color primeColor;
-  final Color accentColor;
-  final Color nextAccentColor;
+  final Color primaryColor;
+  final Color secondaryColor;
+  final Color textColor;
   final int    pageNumber;
   final String imagePath;
   final String caption;
 
-  OnboardPageModel(this.primeColor, this.accentColor, this.nextAccentColor, this.pageNumber, this.imagePath,
+  OnboardPageModel(this.primaryColor, this.secondaryColor, this.textColor, this.pageNumber, this.imagePath,
       this.caption);
 }
