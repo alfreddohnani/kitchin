@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:kitchin/src/themes/styles.dart';
 import 'package:kitchin/src/screens/Home.dart';
+import './routes/routes.dart';
 
 
 class App extends StatelessWidget{
@@ -11,6 +12,7 @@ class App extends StatelessWidget{
       title: 'Kitchin',
       home: new Home(),
       theme: appTheme(),
+      routes: routes,
     );
   }
 }

@@ -4,6 +4,7 @@ import 'package:kitchin/src/screens/onboarding/components/OnboardPage.dart';
 import 'package:provider/provider.dart';
 import "package:kitchin/src/providers/CurrentPageProvider.dart";
 import 'package:kitchin/src/screens/onboarding/components/Indicator.dart';
+import '../signup/SignUp.dart';
 
 class Onboarding extends StatelessWidget {
   final PageController pageController = PageController(initialPage: 0);
@@ -65,7 +66,7 @@ class Onboarding extends StatelessWidget {
                   textColor: Colors.white,
                   child: Text('Get Started'),
                   onPressed: () {
-                    return null;
+                    Navigator.pushNamed(context, SignUp.id);
                   },
                 ),
               ),

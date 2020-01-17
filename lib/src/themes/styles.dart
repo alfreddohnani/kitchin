@@ -5,25 +5,31 @@ ThemeData appTheme() {
     primarySwatch: Colors.blue,
     textTheme: TextTheme(
       title: TextStyle(
-        fontFamily: 'Montserrat',
+        fontFamily: 'Circular Std Black Regular',
         fontSize: 24,
         fontWeight: FontWeight.bold,
-        color: Color(0xFF425398),
+        color: Color(0xFF292F33),
+      ),
+       subtitle: TextStyle(
+        fontFamily: 'Circular Std Black Regular',
+        fontSize: 14,
+        fontWeight: FontWeight.normal,
+        color: Color(0xFF000000),
       ),
       caption: TextStyle(
-        fontFamily: 'Montserrat',
+        fontFamily: 'Circular Std Black Regular',
         fontSize: 24,
         fontWeight: FontWeight.bold,
         color: Color(0xFF425398),
       ),
       subhead: TextStyle(
-        fontFamily: 'Montserrat',
+        fontFamily: 'Circular Std Black Regular',
         fontSize: 24,
         fontWeight: FontWeight.bold,
         color: Color(0xFF425398),
       ),
       body1: TextStyle(
-        fontFamily: 'Montserrat',
+        fontFamily: 'Circular Std Black Regular',
         fontSize: 17,
         fontWeight: FontWeight.normal,
         color: Color(0xFF425398),

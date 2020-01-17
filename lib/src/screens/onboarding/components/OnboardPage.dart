@@ -45,7 +45,7 @@ class _OnboardPageState extends State<OnboardPage>
     return Container(
       color: widget.pageModel.primaryColor,
       child: Column(
-        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
           AnimatedBuilder(
             animation: heroAnimation,
@@ -61,21 +61,14 @@ class _OnboardPageState extends State<OnboardPage>
           ),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 32.0),
-            child: Container(
-              height: 250,
-              width: double.infinity,
-              child: Padding(
-                padding: const EdgeInsets.symmetric(vertical: 8.0),
-                child: Text(
-                  widget.pageModel.caption,
-                  style: TextStyle(
-                      fontFamily: 'Circular Std Black Regular',
-                      fontSize: 24,
-                      color: widget.pageModel.textColor,
-                      letterSpacing: 1,
-                      fontStyle: FontStyle.normal),
-                ),
-              ),
+            child: Text(
+              widget.pageModel.caption,
+              style: TextStyle(
+                  fontFamily: 'Circular Std Black Regular',
+                  fontSize: 36,
+                  color: widget.pageModel.textColor,
+                  letterSpacing: 1,
+                  fontStyle: FontStyle.normal),
             ),
           ),
         ],
